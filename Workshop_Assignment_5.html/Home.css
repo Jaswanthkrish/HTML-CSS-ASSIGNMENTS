@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family:'Times New Roman', Times, serif;
+    background-color: black;
+    background-image: url('Track\ it\ logo.jpg');
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-attachment:fixed;  
+    background-size:40%;
+    
+}
+
+img {
+    width: 115px;
+    height: 110px;
+    margin: 25px;
+    border-radius: 100%;
+    border:1px solid #0a63f3;
+}
+
+.navbar {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin: 10px;
+    color: rgb(10, 10, 10);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-size: 25px;
+    /* padding: 35px; this is home,abiut*/
+    margin: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+#product   {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 5px 150px;
+    justify-content: center;
+    text-align: center;
+}
+
+span{
+    color: rgb(148, 137, 19);
+}  
+u{
+    text-decoration:underline;
+    text-decoration-color: rgb(8, 164, 236);
+}      
+ pre { /*this is matter in given in about cloud gaming and backgroound*/
+    text-align:center;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    /* background-color:rgb(4, 102, 105); */
+    border-radius: 10px;
+    border: 2px solid rgb(5, 126, 224);
+    color:rgb(228, 231, 14);
+}
+h1{
+    color: aqua;
+    font-size: 350%;
+}
